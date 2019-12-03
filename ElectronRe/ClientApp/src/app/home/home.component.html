@@ -1,0 +1,6 @@
+<h1>TEST</h1>
+
+<button (click)="routeToCounter()">outside ngFor</button>
+<div *ngFor="let data of dataList">
+  <button (click)="routeToCounter()">{{data.Title}}</button>
+</div>
